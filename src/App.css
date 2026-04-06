@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background-color: #111118;
+  color: #eee;
+  overflow: hidden;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-header {
+  padding: 15px 30px;
+  background-color: #1a1a24;
+  border-bottom: 1px solid #333;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #fff;
+}
+
+.app-header p {
+  margin: 5px 0 0 0;
+  font-size: 13px;
+  color: #999;
+}
+
+.grids-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+  gap: 40px;
+  overflow: hidden;
+}
